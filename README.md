@@ -6,6 +6,15 @@ Roman Alvarado Morales
 ## Descripción breve del proyecto
 Este proyecto sirve como base para la configuración de un entorno frontend con TypeScript y Vite. Incluye la estructura inicial de una aplicación web simple, con un contador interactivo como ejemplo de uso básico del entorno.
 
+## Funcionalidades actuales
+- Representación tipada de GIFs.
+- Galería generada desde un arreglo local.
+- Búsqueda por título, autor, etiqueta y descripción.
+- Manejo del caso sin resultados.
+
+## Estado del proyecto
+EC1 F1 A2 completada. Los datos aún son locales; la integración con Giphy API se realizará después.
+
 ## Tecnologías utilizadas
 - HTML5
 - CSS3
