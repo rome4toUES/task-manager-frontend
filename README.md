@@ -4,12 +4,12 @@
 Roman Alvarado Morales
 
 ## Descripción breve del proyecto
-Este proyecto sirve como base para la configuración de un entorno frontend con TypeScript y Vite. Incluye la estructura inicial de una aplicación web simple, con un contador interactivo como ejemplo de uso básico del entorno.
+Este proyecto es una aplicación frontend desarrollada con TypeScript y Vite para explorar una colección local de GIFs. Incluye un modelo tipado, una galería y un formulario de búsqueda.
 
 ## Funcionalidades actuales
 - Representación tipada de GIFs.
 - Galería generada desde un arreglo local.
-- Búsqueda por título, autor, etiqueta y descripción.
+- Búsqueda por título, autor y etiqueta.
 - Manejo del caso sin resultados.
 
 ## Estado del proyecto
@@ -70,14 +70,18 @@ http://localhost:5173
 fundamentos-ts/
 ├── index.html
 ├── package.json
+├── pnpm-lock.yaml
 ├── tsconfig.json
-├── vite.config.ts
 ├── public/
 ├── src/
 │   ├── main.ts
 │   ├── counter.ts
-│   ├── style.css
+│   ├── models/
+│   │   └── gif.interface.ts
+│   ├── styles/
+│   │   └── style.css
 │   └── assets/
+├── preguntas
 └── README.md
 ```
 

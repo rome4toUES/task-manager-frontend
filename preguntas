@@ -1,0 +1,12 @@
+# Preguntas de cierre - EC1 F1 A2
+**Nombre:**
+Roman Alvarado Morales
+
+**Grupo:**
+01
+
+## 1. Modelo Gif
+El modelo `Gif` se definió mediante una interfaz en TypeScript. Esta interfaz establece la estructura que debe tener cada GIF: `id`, `title`, `url`, `tags` y `rating` son campos obligatorios, mientras que `username` es opcional porque algunos GIFs no tienen autor disponible. El tipo `GifRating` limita la clasificación a los valores `'g'`, `'pg'` o `'pg-13'`, evitando recibir clasificaciones no válidas.
+
+## 2. Interfaz y objeto literal
+La interfaz `Gif` funciona como un contrato y permite declarar la colección como `const gifs: Gif[]`. Cada elemento de esa colección es un objeto literal que cumple con la estructura definida, por ejemplo, incluye un identificador, título, URL, etiquetas y clasificación. En los objetos sin `username` se aprovecha que esa propiedad es opcional; posteriormente, al mostrar la tarjeta, se usa el texto `Autor no disponible` como valor predeterminado. Esto permite trabajar con datos consistentes y detectar errores durante la compilación.
