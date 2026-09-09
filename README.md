@@ -9,7 +9,9 @@ Este proyecto es una aplicación frontend desarrollada con TypeScript y Vite par
 ## Funcionalidades actuales
 - Representación tipada de GIFs.
 - Galería generada desde un arreglo local.
-- Búsqueda por título, autor y etiqueta.
+- Búsqueda por título, autor y etiqueta sin que los espacios afecten la consulta.
+- Visualización del detalle de cada GIF.
+- Botón para cerrar cada resultado y regresar a la pantalla principal.
 - Manejo del caso sin resultados.
 
 ## Estado del proyecto
@@ -85,5 +87,10 @@ fundamentos-ts/
 └── README.md
 ```
 
+## Flujo de uso
+1. Escribe un título, autor o etiqueta en el buscador y selecciona `Buscar`.
+2. Selecciona `Ver detalle` para consultar la información completa de un GIF.
+3. Selecciona `Cerrar` para limpiar la búsqueda, cerrar el detalle y regresar a la pantalla principal.
+
 ## Nota
-Este proyecto representa la base inicial de un entorno frontend, ideal para comenzar a desarrollar aplicaciones con TypeScript y Vite.
+Este proyecto representa la base inicial de un entorno frontend para desarrollar aplicaciones con TypeScript y Vite. Actualmente utiliza datos locales; la integración con Giphy API se realizará después.
